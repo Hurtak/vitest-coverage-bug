@@ -1,1 +1,13 @@
-{}
+{
+  "name": "lib",
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "serve": "serve coverage"
+  },
+  "dependencies": {
+    "@vitest/coverage-c8": "0.25.2",
+    "serve": "14.1.2",
+    "vitest": "0.25.2"
+  }
+}
